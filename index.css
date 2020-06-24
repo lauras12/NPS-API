@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background: #6B8E23;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  background: white;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+a {
+  color: darkgreen;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: blue;
+}
+
+section {
+  margin: 0 auto;
+}
+
+button,
+input {
+  padding: 5px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background: rgb(32, 75, 32);
+  color: white;
+  cursor: pointer;
+}
+
+.container,
+.title {
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+}
+
+#js-search-term {
+  width: 15%;
+}
+
+#js-max-results {
+  width: 5%;
+}
+
+fieldset {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: lightyellow;
+}
+
+.results-list {
+  background: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.error-message {
+  color: red;
+}
+
+.hidden {
+  display: none;
+}
